@@ -1,0 +1,53 @@
+{
+  "name": "webpack-multipage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "better-npm-run dev",
+    "build": "better-npm-run build"
+  },
+  "betterScripts": {
+    "dev": "webpack-dev-server --config webpack.config.js --progress --colors --hot --open",
+    "build": {
+      "command": "webpack --config webpack.config.js --progress --colors",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@commitlint/cli": "^7.2.1",
+    "autoprefixer": "^9.1.5",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "better-npm-run": "^0.1.1",
+    "css-loader": "^1.0.0",
+    "eslint": "^5.6.1",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "file-loader": "^2.0.0",
+    "handlebars": "^4.0.12",
+    "handlebars-loader": "^1.7.0",
+    "html-webpack-plugin": "^3.2.0",
+    "image-webpack-loader": "^4.3.1",
+    "lint-staged": "^7.3.0",
+    "mini-css-extract-plugin": "^0.4.4",
+    "node-sass": "^4.9.3",
+    "postcss-loader": "^3.0.0",
+    "prettier": "^1.14.3",
+    "sass-loader": "^7.1.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,8 @@
+# Build Output
+dist
+.vscode
+.DS_Store
+npm-debug.log
+
+# Dependencies
+node_modules/
